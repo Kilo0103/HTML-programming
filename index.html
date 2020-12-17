@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <script tyle="text/javascript" src="js/snowfall.jquery.js"></script>
+  <script tyle="text/javascript" src="js/snowfall.js"></script> 
+<title>눈 내리는 효과</title>
+<link type="text/css" rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+  <script tyle="text/javascript">
+    $(document).ready(function(){
+      $(document).snowfall({
+        image :"img/flake.png",
+        minSize: 3,
+        maxSize:10,
+        flakeCount : 30
+      });
+    });
+  </script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
